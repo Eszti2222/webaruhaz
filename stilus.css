@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+header,article,aside,
+nav ul{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+li{
+    list-style: none;
+}
